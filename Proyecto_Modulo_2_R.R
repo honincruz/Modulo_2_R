@@ -2,6 +2,10 @@
 ########################## LEER UN CONJUNTO DE DATOS CSV # ####################
 ############################## Y CONECTARNOS A MYSQL ##########################
 ###############################################################################
+# cambio 2
+#git config --global user.name "honin"
+#git config --global user.email "karlozcruz@hotmail.com"
+
 
 
 library(gitcreds)
@@ -10,6 +14,8 @@ install.packages("gitcreds")
 gitcreds_set() # Para ingresar el token
 
 gitcreds_get() # Sirve para verificar que se ingresó el token
+
+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
 
 #Funcion saber directorio
 getwd()
